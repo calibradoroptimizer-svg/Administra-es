@@ -1,0 +1,19 @@
+{
+  "name": "aim-assist-v7",
+  "version": "7.0.0",
+  "description": "Aim Assist Tool v7.0",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Build complete'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.4.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.10.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
