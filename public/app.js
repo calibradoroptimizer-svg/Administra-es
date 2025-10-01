@@ -1,6 +1,4 @@
-const API_BASE = window.location.hostname === 'localhost' 
-    ? 'http://localhost:8888/.netlify/functions' 
-    : '/.netlify/functions';
+const API_BASE = 'https://admintracao.netlify.app/.netlify/functions';
 
 document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
